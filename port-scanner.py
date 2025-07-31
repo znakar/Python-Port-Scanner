@@ -20,28 +20,3 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     else:
         print(f"Порт {port}/TCP закрыт")
 
-
-# def scanhost(host: str, start_port: int, end_port: int):
-#     for i in range(port_range):
-#     try:
-#         with socket.socket(socket.AF_INET, socket.SOCK_STREAM):
-
-
-
-
-
-
-#  with socket.create_connection((host, port), timeout=timeout):
-
-
-
-
-
-
-
-
-
-
-
-# sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
