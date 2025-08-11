@@ -30,7 +30,7 @@ def scanhost_tcp(host_port):
     
 
 def scanhost_udp(host_port):
-    host , port = host_port
+    host, port = host_port
     with socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP) as s:
         s.settimeout(1)
         try:
@@ -45,8 +45,10 @@ def scanhost_udp(host_port):
 list_of_ports = [(host, port) for port in range(start_port, end_port + 1)]
 
 with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:    
-    tcp_scan = executor.map(scanhost_tcp, list_of_ports)
-    udp_scan = executor.map(scanhost_udp, list_of_ports)
+    list(executor.map(scanhost_tcp, list_of_ports))
+
+with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+    list(executor.map(scanhost_udp, list_of_ports))
 
 
      
