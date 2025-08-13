@@ -27,7 +27,7 @@ The project demonstrates:
 
 ### <img width="20" height="20" alt="icons8-windows-10-48 (1)" src="https://github.com/user-attachments/assets/cfbbaca1-024c-4d53-b57d-f32455689e4e" /> Windows 10/11  
 
-1. Download ZIP, Code → [Download Zip](https://github.com/znakar/Port_Scanner)
+1. Download ZIP, Code → [Download Zip](https://github.com/znakar/Python-Port-Scanner)
 2. Unzip the archive to a convenient location
 3. Open a command prompt (Win + r → cmd)
 4. Go to the project folder (cd "path\to\project")
