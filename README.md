@@ -37,8 +37,8 @@ The project demonstrates:
 ###  <img width="24" height="24" alt="icons8-linux-24" src="https://github.com/user-attachments/assets/28b77c38-a02b-475e-a196-fe6c57407954" /> Ubuntu: latest version
 1. apt update
 2. apt install python3 python3-pip git
-3. git clone https://github.com/znakar/Port_Scanner
-4. cd Port_Scanner/
+3. git clone https://github.com/znakar/Python-Port-Scanner
+4. cd Python-Port-Scanner/
 5. python3 port-scanner.py
 
 ## <img width="24" height="24" alt="icons8-bug-24 (1)" src="https://github.com/user-attachments/assets/2b26c80d-bcb4-43cf-9df3-01510d9335a4" /> Find a bug? 
