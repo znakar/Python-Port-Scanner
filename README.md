@@ -1,5 +1,5 @@
 # Port scanner
-
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ## A lightweight Python port scanner with TCP and UDP support. Suitable for basic network auditing and learning.
 
 The project demonstrates:
