@@ -21,11 +21,11 @@ The project demonstrates:
 ![Демонстрация сканирования по доменному имени](https://github.com/user-attachments/assets/8649a4b5-6b90-4b6d-928f-3cac30b7cf86)
 
 
-## Installation and launch
+## 🚀 Installation and launch
 ### requirements
 - [Python 3.13.1](https://www.python.org/downloads/)
 
-### Windows 10/11 <img width="20" height="20" alt="icons8-windows-10-48 (1)" src="https://github.com/user-attachments/assets/cfbbaca1-024c-4d53-b57d-f32455689e4e" /> 
+### <img width="20" height="20" alt="icons8-windows-10-48 (1)" src="https://github.com/user-attachments/assets/cfbbaca1-024c-4d53-b57d-f32455689e4e" /> Windows 10/11  
 
 1. Download ZIP, Code → [Download Zip](https://github.com/znakar/Port_Scanner)
 2. Unzip the archive to a convenient location
@@ -34,21 +34,21 @@ The project demonstrates:
 5. Run python port_scanner.py
 
 
-### Ubuntu: latest version <img width="24" height="24" alt="icons8-linux-24" src="https://github.com/user-attachments/assets/28b77c38-a02b-475e-a196-fe6c57407954" />
+###  <img width="24" height="24" alt="icons8-linux-24" src="https://github.com/user-attachments/assets/28b77c38-a02b-475e-a196-fe6c57407954" /> Ubuntu: latest version
 1. apt update
 2. apt install python3 python3-pip git
 3. git clone https://github.com/znakar/Port_Scanner
 4. cd Port_Scanner/
 5. python3 port-scanner.py
 
-## Find a bug? <img width="24" height="24" alt="icons8-bug-24 (1)" src="https://github.com/user-attachments/assets/2b26c80d-bcb4-43cf-9df3-01510d9335a4" />
+## <img width="24" height="24" alt="icons8-bug-24 (1)" src="https://github.com/user-attachments/assets/2b26c80d-bcb4-43cf-9df3-01510d9335a4" /> Find a bug? 
 
 
 
 
 If you found ad issue or would like to submit an improvment to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created.
 
-## Known issues (Work in Progress) <img width="24" height="24" alt="icons8-in-progress-24" src="https://github.com/user-attachments/assets/2cd3ae99-dbe3-484b-b4c9-0b7dafe9f7e8" />
+## <img width="24" height="24" alt="icons8-in-progress-24" src="https://github.com/user-attachments/assets/2cd3ae99-dbe3-484b-b4c9-0b7dafe9f7e8" /> Known issues (Work in Progress) 
 
   <img width="12" height="12" alt="icons8-error-12" src="https://github.com/user-attachments/assets/f8848112-6724-4c10-97b0-69104777eafc" /> Ports are not listed in order \
   <img width="12" height="12" alt="icons8-error-12" src="https://github.com/user-attachments/assets/897aed0a-099c-4155-bd46-732d90a7c621" /> UDP scan does not guarantee that the port is open \
