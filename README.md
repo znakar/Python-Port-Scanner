@@ -1,5 +1,6 @@
 # Python Port Scanner
-[![Python](https://img.shields.io/badge/python-3.13.1-3670A0?style=for_the-badge&logo=python&logoColor=ffdd54)](https://www.python.org)
+[![Python](https://img.shields.io/badge/python-3.13.1-3670A0?style=for_the-badge&logo=python&logoColor=ffdd54)](https://www.python.org) \
+[![Licence](https://img.shields.io/github/license/znakar/Port_scanner?style=for-the-badge)](./LICENSE)
 ## A lightweight Python port scanner with TCP and UDP support. Suitable for basic network auditing and learning.
 
 The project demonstrates:
