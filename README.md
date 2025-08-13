@@ -1,5 +1,5 @@
-# Port scanner
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+# Python Port Scanner
+[![Python](https://img.shields.io/badge/python-3.13.1-3670A0?style=for_the-badge&logo=python&logoColor=ffdd54)](https://www.python.org)
 ## A lightweight Python port scanner with TCP and UDP support. Suitable for basic network auditing and learning.
 
 The project demonstrates:
@@ -47,7 +47,6 @@ If you found ad issue or would like to submit an improvment to this project, ple
 
 ## Known issues (Work in Progress) <img width="24" height="24" alt="icons8-in-progress-24" src="https://github.com/user-attachments/assets/2cd3ae99-dbe3-484b-b4c9-0b7dafe9f7e8" />
 
-* Ports are not listed in order
-* UDP scan does not guarantee that the port is open
-* After execution on Linux, an error is thrown:
-  OSError: [Errno 22] Invalid argument
+  <img width="12" height="12" alt="icons8-error-12" src="https://github.com/user-attachments/assets/f8848112-6724-4c10-97b0-69104777eafc" /> Ports are not listed in order \
+  <img width="12" height="12" alt="icons8-error-12" src="https://github.com/user-attachments/assets/897aed0a-099c-4155-bd46-732d90a7c621" /> UDP scan does not guarantee that the port is open \
+  <img width="12" height="12" alt="icons8-error-12" src="https://github.com/user-attachments/assets/d19599ce-1592-479e-aa2a-b5c4f0603577" /> After execution on Linux, an error is thrown: OSError: [Errno 22]
