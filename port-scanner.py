@@ -24,7 +24,7 @@ def scanhost_tcp(host_port):
         s.settimeout(2)
         result = s.connect_ex((host, port))
     if result == 0:
-        print(f"Порт {port}/TCP открыт")
+        print(f"Порт {port}/TCP open")
     else:
         pass
     
@@ -35,11 +35,11 @@ def scanhost_udp(host_port):
         s.settimeout(1)
         try:
             s.sendto(MESSAGE, (host, port))
-            print(f"Порт {port}/UDP открыт")
+            print(f"Порт {port}/UDP open")
         except socket.timeout:
             print(f"Порт {port}/UDP открыт или фильртуется (нет ответа)")
         except ConnectionRefusedError:
-            print(f"Порт {port}/UDP закрыт")
+            print(f"Порт {port}/UDP closed")
 
 
 list_of_ports = [(host, port) for port in range(start_port, end_port + 1)]
