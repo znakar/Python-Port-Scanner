@@ -37,7 +37,7 @@ def scanhost_udp(host_port):
             s.sendto(MESSAGE, (host, port))
             print(f"Порт {port}/UDP open")
         except socket.timeout:
-            print(f"Порт {port}/UDP открыт или фильртуется (нет ответа)")
+            print(f"Порт {port}/UDP open or filtered (no response)")
         except ConnectionRefusedError:
             print(f"Порт {port}/UDP closed")
 
