@@ -46,7 +46,7 @@ The project demonstrates:
 
 
 
-If you found ad issue or would like to submit an improvment to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created.
+If you found an issue or would like to submit an improvment to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created.
 
 ## <img width="24" height="24" alt="icons8-in-progress-24" src="https://github.com/user-attachments/assets/2cd3ae99-dbe3-484b-b4c9-0b7dafe9f7e8" /> Known issues (Work in Progress) 
 
