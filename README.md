@@ -15,10 +15,10 @@ The project demonstrates:
 ## Demonstration of work
 
 **Scan by ip address**
-![Демонстрация сканирования по IP](https://github.com/user-attachments/assets/a1da5160-05e5-4e94-98bc-5f8622a05a59)
+![IP Scanning Demonstration](https://github.com/user-attachments/assets/a1da5160-05e5-4e94-98bc-5f8622a05a59)
 
 **Scan by domain name**
-![Демонстрация сканирования по доменному имени](https://github.com/user-attachments/assets/8649a4b5-6b90-4b6d-928f-3cac30b7cf86)
+![Demonstration of scanning by domain name](https://github.com/user-attachments/assets/8649a4b5-6b90-4b6d-928f-3cac30b7cf86)
 
 
 ## 🚀 Installation and launch
