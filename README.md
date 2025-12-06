@@ -42,7 +42,7 @@ The project demonstrates:
 2. Unzip the archive to a convenient location
 3. Open a command prompt (Win + r → cmd)
 4. Go to the project folder (cd "path\to\project")
-5. Run python port_scanner.py
+5. Run python port-scanner.py --help
 
 
 ###  <img width="24" height="24" alt="icons8-linux-24" src="https://github.com/user-attachments/assets/28b77c38-a02b-475e-a196-fe6c57407954" /> Ubuntu: latest version
