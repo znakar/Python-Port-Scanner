@@ -12,14 +12,23 @@ The project demonstrates:
 * TCP and UDP scanning
 * Multithreading
 * Progress bar
+* Availability of help for commands
 
 ## Demonstration of work
 
+**Basic help output**
+![Basic help output](https://github.com/user-attachments/assets/2a358161-edfb-4b9d-834a-59fcd6643b8a)
+
+
 **Scan by ip address**
-![IP Scanning Demonstration](https://github.com/user-attachments/assets/a1da5160-05e5-4e94-98bc-5f8622a05a59)
+![Scan by ip address*](https://github.com/user-attachments/assets/0ba6917c-5e39-46c4-95e4-72760e969548)
+
+
+
 
 **Scan by domain name**
-![Demonstration of scanning by domain name](https://github.com/user-attachments/assets/8649a4b5-6b90-4b6d-928f-3cac30b7cf86)
+![Demonstration of scanning by domain name](https://github.com/user-attachments/assets/d3ee89df-9b9d-44a9-aeb3-ff30a97c13b1)
+
 
 
 ## 🚀 Installation and launch
