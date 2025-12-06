@@ -51,4 +51,3 @@ If you found an issue or would like to submit an improvment to this project, ple
 
 ## <img width="24" height="24" alt="icons8-in-progress-24" src="https://github.com/user-attachments/assets/2cd3ae99-dbe3-484b-b4c9-0b7dafe9f7e8" /> Known issues (Work in Progress) 
   <img width="12" height="12" alt="icons8-error-12" src="https://github.com/user-attachments/assets/d19599ce-1592-479e-aa2a-b5c4f0603577" /> After execution on Linux, an error is thrown: OSError: [Errno 22] \
-   <img width="12" height="12" alt="icons8-error-12" src="https://github.com/user-attachments/assets/d19599ce-1592-479e-aa2a-b5c4f0603577" /> TCP scan is lost
