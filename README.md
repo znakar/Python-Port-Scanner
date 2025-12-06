@@ -34,6 +34,7 @@ The project demonstrates:
 ## 🚀 Installation and launch
 ### requirements
 - [Python 3.13.1](https://www.python.org/downloads/)
+- [tqdm](https://github.com/tqdm/tqdm)
 
 ### <img width="20" height="20" alt="icons8-windows-10-48 (1)" src="https://github.com/user-attachments/assets/cfbbaca1-024c-4d53-b57d-f32455689e4e" /> Windows 10/11  
 
