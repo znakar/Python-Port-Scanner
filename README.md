@@ -11,6 +11,7 @@ The project demonstrates:
 * Checking port availability
 * TCP and UDP scanning
 * Multithreading
+* Progress bar
 
 ## Demonstration of work
 
