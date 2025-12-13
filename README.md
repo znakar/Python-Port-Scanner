@@ -49,8 +49,9 @@ The project demonstrates:
 1. apt update
 2. apt install python3 python3-pip git
 3. git clone https://github.com/znakar/Python-Port-Scanner
-4. cd Python-Port-Scanner/
-5. python3 port-scanner.py
+4. apt install python3-tqdm
+5. cd Python-Port-Scanner/
+6. python3 port-scanner.py --help
 
 ## <img width="24" height="24" alt="icons8-bug-24 (1)" src="https://github.com/user-attachments/assets/2b26c80d-bcb4-43cf-9df3-01510d9335a4" /> Find a bug? 
 
