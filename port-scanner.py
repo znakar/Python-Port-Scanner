@@ -6,6 +6,7 @@ import sys
 from argparse import Namespace
 from concurrent.futures import ThreadPoolExecutor
 
+
 try:
     from tqdm import tqdm
 except ImportError:
@@ -17,13 +18,15 @@ except ImportError:
 
 MESSAGE = b'Ping...'
 
+
+
 parser = argparse.ArgumentParser(description='Simple port scanner')
 
 
 parser.add_argument('-p', '--protocol', required=True, choices=['tcp', 'udp'], help='Select protocol - tcp/udp')
 parser.add_argument('-t', '--target', required=True, type=str, help='Specify IP address')
 parser.add_argument('-r', '--range', type=str, default='1-1024', help='Sepcify the port range to scan (default: 1-1024)')
-parser.add_argument('-w', '--workers',type=int, default=200, help='number of worker threads performing parallel execution of tasks (default: 200)')
+parser.add_argument('-w', '--workers',type=int, default=200, help='Number of worker threads performing parallel execution of tasks (default: 200)')
 
 args: Namespace = parser.parse_args() 
 
