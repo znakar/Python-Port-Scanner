@@ -9,7 +9,7 @@ RUN python3 --version && git --version
 
 RUN git clone https://github.com/znakar/Python-Port-Scanner
 
-WORKDIR Python-Port-Scanner
+WORKDIR /Python-Port-Scanner
 
 RUN pip install git+https://github.com/tqdm/tqdm.git --break-system-packages 
 
