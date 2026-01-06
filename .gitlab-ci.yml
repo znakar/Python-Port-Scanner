@@ -1,0 +1,18 @@
+image: python:3.13-slim-trixie
+
+default:
+    before_script:
+      - python -m pip install --upgrade pip
+      - pip install -r requirements.txt
+
+test-job:
+    stage: test
+    script: 
+      - echo "This is a test job"
+      - python --version
+
+run_scanner:
+    stage: test
+    script:
+      - echo "Running..."
+      - python port-scanner.py --help
