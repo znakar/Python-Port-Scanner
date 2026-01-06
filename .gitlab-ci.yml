@@ -7,12 +7,12 @@ default:
 
 test-job:
     stage: test
-    script: 
-      - echo "This is a test job"
+    script:
+      - echo "This is a test job!"
       - python --version
 
 run_scanner:
     stage: test
     script:
-      - echo "Running..."
+      - echo "[*]Running..."
       - python port-scanner.py --help
