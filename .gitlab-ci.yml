@@ -17,5 +17,5 @@ test-job:
 run_scanner:
   stage: test
   script:
-    - echo "[*]Running..."
+    - echo "[*]Running...."
     - python port-scanner.py --help
