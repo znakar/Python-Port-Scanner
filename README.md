@@ -3,7 +3,7 @@
 [![license](https://custom-icon-badges.demolab.com/github/license/znakar/Port_Scanner?logo=law&logoColor=white)](https://github.com/znakar/Port_Scanner/blob/master/LICENSE? "license MIT")
 [![stars](https://custom-icon-badges.demolab.com/github/stars/znakar/Port_Scanner?logo=star&style=flat&cacheSeconds=60)](https://github.com/znakar/Port_Scanner/stargazers "stars")
 [![issues](https://custom-icon-badges.demolab.com/github/issues-raw/znakar/Port_Scanner?logo=issue)](https://github.com/znakar/Port_Scanner/issues "issues")
-[![github](https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white)](https://gitlab.com/ci_cd2970651/python_port_scanner)
+[![github](https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white)](https://github.com/znakar/Python-Port-Scanner)
 ## A lightweight Python port scanner with TCP and UDP support. Suitable for basic network auditing and learning.
 
 The project demonstrates:
