@@ -4,7 +4,7 @@ stages:
   - test
 
 default:
-  before_script:
+  before-script:
     - python -m pip install --upgrade pip
     - pip install -r requirements.txt
 
@@ -12,7 +12,7 @@ variables:
   PIP_CACHE_DIR: $CI_PROJECT_DIR/.cache/pip/
 
   cache-job:
-    - script:
+      script:
         - echo "This job uses a cache"
       cache:
         key:
