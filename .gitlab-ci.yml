@@ -11,8 +11,6 @@ default:
 variables:
   PIP_CACHE_DIR: $CI_PROJECT_DIR/.cache/pip/
 
-
-defaults:
   cache-job:
     - script:
         - echo "This job uses a cache"
@@ -20,8 +18,8 @@ defaults:
         key:
           files:
             - requirements.txt
-          paths:
-            .cache/pip/
+        paths:
+          - .cache/pip/
 
 
 test-job:
