@@ -32,4 +32,15 @@ run_scanner:
   stage: test
   script:
     - echo "[*]Running...."
-    - python port-scanner.py --help
+    - mkdir -p results/
+    - python port-scanner.py --help > results/results.txt
+  artifacts:
+    name: results
+    untracked: false
+    when: always
+    access: developer
+    expire_in: 7 days
+    paths:
+      - results/
+
+
