@@ -1,0 +1,46 @@
+image: python:3.13-slim-trixie
+
+stages:
+  - test
+
+default:
+  before_script:
+    - python -m pip install --upgrade pip
+    - pip install -r requirements.txt
+
+variables:
+  PIP_CACHE_DIR: $CI_PROJECT_DIR/.cache/pip/
+
+cache-job:
+  script:
+    - echo "This job uses a cache"
+  cache:
+    key:
+      files:
+        - requirements.txt
+    paths:
+      - .cache/pip/
+
+
+test-job:
+  stage: test
+  script:
+    - echo "This is a test job!"
+    - python --version
+
+run_scanner:
+  stage: test
+  script:
+    - echo "[*]Running...."
+    - mkdir -p results/
+    - python port-scanner.py --help > results/results.txt
+  artifacts:
+    name: results
+    untracked: false
+    when: always
+    access: developer
+    expire_in: 7 days
+    paths:
+      - results/
+
+
