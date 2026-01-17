@@ -69,7 +69,11 @@ If you found an issue or would like to submit an improvment to this project, ple
 [![license](https://custom-icon-badges.demolab.com/github/license/znakar/Port_Scanner?logo=law&logoColor=white)](https://github.com/znakar/Port_Scanner/blob/master/LICENSE? "license MIT")
 [![stars](https://custom-icon-badges.demolab.com/github/stars/znakar/Port_Scanner?logo=star&style=flat&cacheSeconds=60)](https://github.com/znakar/Port_Scanner/stargazers "stars")
 [![issues](https://custom-icon-badges.demolab.com/github/issues-raw/znakar/Port_Scanner?logo=issue)](https://github.com/znakar/Port_Scanner/issues "issues")
+<<<<<<< HEAD
 [![github](https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white)](https://github.com/znakar/Python-Port-Scanner)
+=======
+[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white)](https://gitlab.com/ci_cd2970651/python_port_scanner)
+>>>>>>> 67232badc9b845504cc4555687d01ca92f9af9b9
 ## A lightweight Python port scanner with TCP and UDP support. Suitable for basic network auditing and learning.
 
 The project demonstrates:
@@ -128,5 +132,9 @@ The project demonstrates:
 
 If you found an issue or would like to submit an improvment to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created.
 
+<<<<<<< HEAD
 #### Last update: 09.01.2026
 >>>>>>> c5ff8f0f698b5e55aaa94651083c79076e3c819f
+=======
+#### Last update: 11.01.2026
+>>>>>>> 67232badc9b845504cc4555687d01ca92f9af9b9
