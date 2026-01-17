@@ -31,7 +31,15 @@ The project demonstrates:
 **Scan by domain name**
 ![Demonstration of scanning by domain name](https://github.com/user-attachments/assets/d3ee89df-9b9d-44a9-aeb3-ff30a97c13b1)
 
+## 📈 Monitoring
 
+#### ✨ Grafana
+
+![Grafana](https://github.com/znakar/Python-Port-Scanner/blob/master/images/grafana_gitlab.jpg)
+
+#### ⚙️ Prometheus
+
+![Prometheus](https://github.com/znakar/Python-Port-Scanner/blob/master/images/prometheus_gitlab.jpg)
 
 ## 🚀 Installation and launch
 ### requirements
@@ -64,4 +72,5 @@ The project demonstrates:
 If you found an issue or would like to submit an improvment to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created.
 
 #### Last update: 17.01.2026
+
 
