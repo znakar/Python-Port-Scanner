@@ -7,11 +7,9 @@ RUN apt-get update && apt-get install -y git --no-install-recommends \
 
 RUN python3 --version && git --version
 
-RUN git clone https://github.com/znakar/Python-Port-Scanner
+COPY . .
 
-WORKDIR Python-Port-Scanner
-
-RUN pip install git+https://github.com/tqdm/tqdm.git --break-system-packages 
+RUN pip install -r requirements.txt 
 
 ENTRYPOINT ["python3", "port-scanner.py"]
 

@@ -3,8 +3,10 @@ import datetime
 import concurrent.futures
 import argparse
 import sys
+import time
 from argparse import Namespace
 from concurrent.futures import ThreadPoolExecutor
+from prometheus_client import Counter, start_http_server
 
 
 try:
@@ -15,8 +17,17 @@ except ImportError:
     sys.exit(1)
 
 
+start_http_server(8000, addr='0.0.0.0')
+
+SCAN_ERRORS = Counter('scan_errors', 'List of errors!', ['reason'])
+
+SCAN_ERRORS.labels(reason ='no_ports_found').inc()
+SCAN_ERRORS.labels(reason='no_protocol_selected').inc()
+
 
 MESSAGE = b'Ping...'
+
+
 
 
 
@@ -125,3 +136,8 @@ elif args.protocol == 'udp':
             print(output)
 
 print(datetime.datetime.now())
+
+print("Scanning is completed. Leaving the server to collect metrics")
+
+while True:
+    time.sleep(1)
