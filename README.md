@@ -15,6 +15,7 @@ The project demonstrates:
 * Multithreading
 * Progress bar
 * Availability of help for commands
+* Monitoring
 
 ## Demonstration of work
 
@@ -72,5 +73,6 @@ The project demonstrates:
 If you found an issue or would like to submit an improvment to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created.
 
 #### Last update: 17.01.2026
+
 
 
