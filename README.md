@@ -5,7 +5,11 @@
 [![stars](https://custom-icon-badges.demolab.com/github/stars/znakar/Port_Scanner?logo=star&style=flat&cacheSeconds=60)](https://github.com/znakar/Port_Scanner/stargazers "stars")
 [![issues](https://custom-icon-badges.demolab.com/github/issues-raw/znakar/Port_Scanner?logo=issue)](https://github.com/znakar/Port_Scanner/issues "issues")
 [![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white)](https://gitlab.com/ci_cd2970651/python_port_scanner)
-## A lightweight Python port scanner with TCP and UDP support. Suitable for basic network auditing and learning.
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=Prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=Grafana&logoColor=white)
+## A Python port scanner with TCP and UDP support. Suitable for basic network auditing and learning.
+### The project is fully containerized using docker and docker compose for rapid deployment of the monitoring system.
 
 The project demonstrates:
 
@@ -46,6 +50,7 @@ The project demonstrates:
 ### requirements
 - [Python 3.13.1](https://www.python.org/downloads/)
 - [tqdm](https://github.com/tqdm/tqdm)
+- [prometheus_client](https://github.com/prometheus/client_python)
 
 ### <img width="20" height="20" alt="icons8-windows-10-48 (1)" src="https://github.com/user-attachments/assets/cfbbaca1-024c-4d53-b57d-f32455689e4e" /> Windows 10/11  
 
@@ -73,6 +78,7 @@ The project demonstrates:
 If you found an issue or would like to submit an improvment to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created.
 
 #### Last update: 18.01.2026
+
 
 
 
