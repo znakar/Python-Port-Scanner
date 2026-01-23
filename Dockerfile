@@ -13,6 +13,7 @@ USER scanner
 
 ENTRYPOINT ["python3", "port-scanner.py"]
 
-CMD ["-p", "tcp", "-t google.com", "-r", "1-1000", "-w", "300"]
+CMD ["-p", "tcp", "-t", "google.com", "-r", "1-1000", "-w", "300"]
+
 
 
