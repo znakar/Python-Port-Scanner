@@ -4,8 +4,6 @@ services:
     build: .  
     container_name: scanner
     command: ["-p", "tcp", "-t", "1.1.1.1", "-r", "1-10"]
-    volumes:
-      - .:/pps
     restart: always
 
   prometheus:
@@ -24,3 +22,4 @@ services:
       - '3000:3000'
     depends_on:
       - prometheus
+
